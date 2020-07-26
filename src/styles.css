@@ -6,4 +6,9 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.container {
+  margin: 10px;
+  display: flex;
+}
+
 /*# sourceMappingURL=styles.css.map */
