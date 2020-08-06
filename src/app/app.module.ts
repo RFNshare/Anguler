@@ -20,6 +20,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 import {DishService} from './services/dish.service';
+import {PromotionService} from './services/promotion.service';
 
 import 'hammerjs';
 
@@ -48,7 +49,8 @@ import 'hammerjs';
     AppRoutingModule
   ],
   providers: [
-    DishService
+    DishService,
+    PromotionService
   ],
   bootstrap: [AppComponent]
 })
